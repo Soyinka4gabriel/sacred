@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    margin: auto;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.out{
+    font-size: small;
+}
+.form-banner{
+    margin-top: 10px;
+    padding: 30px 30px;
+    background: rgb(252, 238, 213);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input{
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.btn{
+    align-self: center;
+    margin-top: 10px;
+    height: 30px;
+    width: 70px;
+}

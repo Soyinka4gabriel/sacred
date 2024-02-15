@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+    <header>
+        <img src="sacred.png" alt="logo">
+    </header>
+    <section class="register">
+        
+        <label class="out" for="">Already have an account? <a href="index.html">Sign In</a></label>
+        <div class="form-banner">
+            <label for="">Enter all details correctly, remenber your Email and password</label>
+            <form action="register.php" method="post">
+                <input type="text" name="fullname" required placeholder="Fullname">
+                <input type="email" name="email" id="email" required placeholder="Email">
+                <div>
+                    <label for="dob" required >DOB </label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <input type="text" name="state_of_origin" required placeholder="State of Origin">
+                <input type="password" name="password" id="password" required placeholder="Password">
+                <input type="password" name="confirm_password" id="confirm_password" required placeholder="Confirm Password">
+                <button class="btn" type="submit">Register</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

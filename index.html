@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./signin.css">
+</head>
+<body>
+    <header>
+        <img src="sacred.png" alt="logo">
+    </header>
+    <section class="signin">
+        <label class="out" for="">Don't have an account? <a href="register.html">Register Now</a></label>
+        <div class="form-banner">
+            <label for="">Sign in here</label>
+            <form action="signin.php" method="post">
+                <input type="email" name="email" id="email" required placeholder="Email">
+                <input type="password" name="password" id="password" required placeholder="Password">
+                <button class="btn" type="submit">Login</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
